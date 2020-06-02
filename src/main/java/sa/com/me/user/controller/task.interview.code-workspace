@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"path": "/Users/mahmoud/Documents/GitRepo/articles"
+		},
+		{
+			"path": "/Users/mahmoud/Documents/GitRepo/core"
+		},
+		{
+			"path": "/Users/mahmoud/Documents/GitRepo/eureka"
+		},
+		{
+			"path": "/Users/mahmoud/Documents/GitRepo/gateway"
+		},
+		{
+			"path": "/Users/mahmoud/Documents/GitRepo/security"
+		},
+		{
+			"path": "/Users/mahmoud/Documents/GitRepo/users"
+		},
+		{
+			"name": "admin",
+			"path": "/Users/mahmoud/Documents/GitRepo/admin"
+		},
+		{
+			"name": "config",
+			"path": "/Users/mahmoud/Documents/GitRepo/config"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic"
+	}
+}

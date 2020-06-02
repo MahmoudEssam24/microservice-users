@@ -1,0 +1,13 @@
+GET http://localhost:8801/api/v1/private/users/me@me.com HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYXR0QGZ1dHVyZXdvcmtzaG9wcy5jb20iLCJqdGkiOiIxIiwic2NvcGVzIjoiUk9MRV9BRE1JTiIsImlhdCI6MTU4NTA4NjM3NSwiZXhwIjoxNTg1MDg5OTc1fQ.lDYfLj3_bGyOHH1p2XsYOUK-GlYqGe7FFI0HRQ5Hsy7itE5I7GbzT1TeCq0iI4bI5CQ0lwxmyWnU2abJwV4I3w
+
+###
+POST  http://localhost:8763/api/v1/private/users HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbGV4QGZ1dHVyZXdvcmtzaG9wcy5jb20iLCJqdGkiOiIyIiwic2NvcGVzIjoiUk9MRV9DT05TVU1FUiIsImlhdCI6MTU4NTE0NDQxNCwiZXhwIjoxNTg1MTQ4MDE0fQ.y1apizs7slKsQ0CxmMevBBpRWi7VXolHh2JEGJJ-BErmwmRM7cPxXSj3fm_aQq0VlHqpiBso-NogSaJF7V0-8g
+
+{
+    "name": "test",
+    "email": "test@email.com",
+    "password": "test"
+}
